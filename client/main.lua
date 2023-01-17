@@ -8,7 +8,7 @@ local meltedItem = {}
 CreateThread(function()
     for _, value in pairs(Config.PawnLocation) do
         local blip = AddBlipForCoord(value.coords.x, value.coords.y, value.coords.z)
-        SetBlipSprite(blip, 431)
+        SetBlipSprite(blip, 0)
         SetBlipDisplay(blip, 4)
         SetBlipScale(blip, 0.7)
         SetBlipAsShortRange(blip, true)
